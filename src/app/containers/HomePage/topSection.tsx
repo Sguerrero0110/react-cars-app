@@ -6,6 +6,7 @@ import tw from 'twin.macro';
 import MclarenCarImg from '../../../assets/images/mclaren-orange-big.png';
 import BlobImg from '../../../assets/images/blob.svg';
 import { SCREENS } from '../../components/responsive';
+import { Button } from '../../components/button';
 
 const TopSectionContainer = styled.div`
   min-height: 400px;
@@ -150,7 +151,10 @@ export function TopSection() {
           Have one of our cars deleivered or can be picked up at a location near
           you.
         </Description>
-        <ButtonsContainer></ButtonsContainer>
+        <ButtonsContainer>
+          <Button text='Book Your Ride' theme={'filled'} />
+          <Button theme={'filled'} text='Selling Your Car?' />
+        </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
         <BlobContainer>
