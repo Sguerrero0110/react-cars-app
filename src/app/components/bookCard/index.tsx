@@ -83,7 +83,7 @@ const LineSeperator = styled.span`
 `;
 
 const DateCalendar = styled(Calendar)`
-  position: obsolute;
+  position: absolute;
   max-width: none;
   user-select: none;
   top: -2em;
